@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    padding: 5vh 5vw;
+}
+
+h1 {
+    
+    font-size: 5vh;
+    margin-top: 2vh;
+}
+
+button {
+    background-color: rgb(247, 0, 0);
+    color: white;
+    font-size: 2vh;
+    padding: 1vh 1vw;
+}
+
+#story {
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    text-align: center;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+#choice1, #choice2 {
+    width: 45%;
+    height: 100%;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+
+#begin {
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+}
+
+
+
